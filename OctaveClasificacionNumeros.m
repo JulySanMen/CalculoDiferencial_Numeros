@@ -1,23 +1,23 @@
 %octave.script
 %School         :Tecnologico de Estudios Superiores de Jilotepec 
-%Specialty      :Ingeniería en Sistemas Computacionales 
-%Title          :Clasificacion de los números 
-%Description    :Scrip para recordar conceptos de números 
-%Author         :Julieta Sánchez Mendoza 
+%Specialty      :IngenierÃ­a en Sistemas Computacionales 
+%Title          :Clasificacion de los nÃºmeros 
+%Description    :Scrip para recordar conceptos de nÃºmeros 
+%Author         :Julieta SÃ¡nchez Mendoza 
 %Date           :202123394
 %Version        :1
 %Usage          :octave >/path/ClasificacionNumeros
-%Notes          :Requiere aplicación octave, usar su linea de comandos 
+%Notes          :Requiere aplicaciÃ³n octave, usar su linea de comandos 
 
 
 clear
 c_Numeros_Naturales = 'N={1, 2, 3, ....n}si n> 0';
 c_Numeros_Enteros = 'Z={-n...,-2,-1,0,1,2,...n}';
-c_Numeros_Racionales = 'Q={m/n dónde m,n ?R n ? 0}';
-c_Numeros_Irracionales = 'I = {vn que no puede ser expresado como Q todas las raíces que no son exactas}';
+c_Numeros_Racionales = 'Q={m/n dÃ³nde m,n ?R n ? 0}';
+c_Numeros_Irracionales = 'I = {vn que no puede ser expresado como Q todas las raÃ­ces que no son exactas}';
 c_Numeros_Reales = 'R={I,Q,Z,N}';
 
-%Propiedades de los núemros sean a,b,c,d,e ?R
+%Propiedades de los nÃºemros sean a,b,c,d,e ?R
 
 %Propiedades de ?(Cerradura)
 p_cerradura = 'a + b ?R';
@@ -41,8 +41,8 @@ a *(b*c)==(a*b)*c
 %Propiedad conmutativa
 p_conmutativa = 'a + b = b + a';
 p_conmutativa = 'a*b = b*a';
-a=2
-b=9
+a=2;
+b=9;
 a + b == b + a
 a*b == b*a
 
@@ -83,7 +83,7 @@ c=3;
  a > b && b > c | a > c
  a == b && b == c | a == c 
 
-%Tricotomia (raíz del algebra) siempre se pueden comparar
+%Tricotomia (raÃ­z del algebra) siempre se pueden comparar
 p_tricotomia = 'a > b';
 p_tricotomia2 = 'a = b';
 p_tricotomia3 = 'a < b';
@@ -93,7 +93,7 @@ a > b
 a == b
 a < b 
 
-%signos de agrupación
+%signos de agrupaciÃ³n
 s_agrupacion = '{[()]}'; 
 
 
